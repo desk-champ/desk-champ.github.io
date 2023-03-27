@@ -73,27 +73,9 @@ nav ul li a:hover {
     line-height: 1.5;
   }
 
-.experience {
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 50px;
-}
-  
-.experience h1 {
-    font-size: 2.5rem;
-}
-  
-.experience h2 {
-    font-size: 1.5rem;
-    margin-top: 50px;
-}
-  
-.experience ul {
-    text-align: left;
-    font-size: 1.2rem;
-    margin-top: 20px;
-}
-  
-.experience li {
-    margin-bottom: 10px;
-}
+.experience-container {
+    background-color: #eee;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+  }
