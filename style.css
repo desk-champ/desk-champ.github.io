@@ -15,22 +15,22 @@ header {
     padding: 1rem;
 }
 
-nav ul {
-    display: flex;
+header li {
+    display: inline;
     list-style-type: none;
+    margin: 0 5px; /* Add some margin between the links */
 }
 
-nav ul li {
-    margin-right: 1rem;
+header nav {
+    margin-top: 1rem;
+    display: flex; /* Use flexbox to align the list items */
+    justify-content: center; /* Center the list items */
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
+header nav ul {
+    padding: 0;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to align the list items */
 }
 
 /* Style main sections */
