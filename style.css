@@ -40,3 +40,35 @@ nav ul li:last-child a {
 nav ul li a:hover {
     background-color: #ddd;
 }
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .image-container {
+    width: 40%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+  
+  .description-container {
+    width: 50%;
+    background-color: #eee;
+    padding: 2rem;
+  }
+  
+  .description-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .description-container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
