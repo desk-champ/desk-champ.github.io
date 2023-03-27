@@ -5,39 +5,66 @@
     box-sizing: border-box;
 }
 
-/* Set background image */
 body {
-    background-image: url('https://source.unsplash.com/random');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: Arial, sans-serif;
 }
 
-/* Style container */
-.container {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-    border-radius: 1rem;
+/* Style header and navigation */
+header {
+    background-color: #333;
+    padding: 1rem;
 }
 
-/* Style title */
-h1 {
-    color: #ffffff;
-    font-size: 3rem;
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style main sections */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-/* Style social media links */
+p {
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
 .social-media a {
-    color: #ffffff;
+    color: #333;
     text-decoration: none;
-    margin: 0 1rem;
 }
 
 .social-media a:hover {
