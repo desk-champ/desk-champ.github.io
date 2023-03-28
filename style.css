@@ -80,11 +80,6 @@ nav ul li a:hover {
     max-width: 800px;
 }
 
-.experience-container p {
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
-}
-
 .project-container {
     text-align: center;
     background-color: #f1f1f1;
