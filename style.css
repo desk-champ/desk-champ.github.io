@@ -75,6 +75,7 @@ nav ul li a:hover {
 
 .experience ul li h3 {
     display: inline;
+    border-bottom: 1px solid black;
     margin-bottom: 10px;
     padding-bottom: 5px;
     list-style: none;
@@ -85,11 +86,6 @@ nav ul li a:hover {
     padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
-}
-
-.experience-container p {
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
 }
 
 .experience-container li {
