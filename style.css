@@ -129,10 +129,9 @@ nav ul li a:hover {
 }
 
 .contact-box img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-bottom: 10px;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .contact-box a {
@@ -144,4 +143,3 @@ nav ul li a:hover {
 .contact-box a:hover {
     text-decoration: underline;
 }
-
