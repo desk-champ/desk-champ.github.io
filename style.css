@@ -79,14 +79,19 @@ nav ul li a:hover {
     margin-bottom: 10px;
     padding-bottom: 5px;
     list-style: none;
-  }
+}
 
 .experience-container {
     background-color: #eee;
     padding: 2rem;
     margin: 2rem auto;
     max-width: 800px;
-  }
+}
+
+.experience-container p {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}  
 
 .project-container {
     text-align: center;
